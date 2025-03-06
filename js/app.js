@@ -27,8 +27,8 @@ $(document).ready(function() {
     $('#decBitboard2').keyup(() => decKeyUp($('#bitboard2'), $('#decBitboard2'), $('#hexBitboard2'), $('#binBitboard2'), $('#upperBitboard2'), $('#lowerBitboard2')));
     $('#hexBitboard2').keyup(() => hexKeyUp($('#bitboard2'), $('#decBitboard2'), $('#hexBitboard2'), $('#binBitboard2'), $('#upperBitboard2'), $('#lowerBitboard2')));
     $('#binBitboard2').keyup(() => binKeyUp($('#bitboard2'), $('#decBitboard2'), $('#hexBitboard2'), $('#binBitboard2'), $('#upperBitboard2'), $('#lowerBitboard2')));
-    $('#upperBitboard2').keyup(() => upperKeyUp($('#bitboard1'), $('#decBitboard1'), $('#hexBitboard1'), $('#binBitboard1'), $('#upperBitboard1'), $('#lowerBitboard1')));
-    $('#lowerBitboard2').keyup(() => lowerKeyUp($('#bitboard1'), $('#decBitboard1'), $('#hexBitboard1'), $('#binBitboard1'), $('#upperBitboard1'), $('#lowerBitboard1')));
+    $('#upperBitboard2').keyup(() => upperKeyUp($('#bitboard2'), $('#decBitboard2'), $('#hexBitboard2'), $('#binBitboard2'), $('#upperBitboard2'), $('#lowerBitboard2')));
+    $('#lowerBitboard2').keyup(() => lowerKeyUp($('#bitboard2'), $('#decBitboard2'), $('#hexBitboard2'), $('#binBitboard2'), $('#upperBitboard2'), $('#lowerBitboard2')));
 
     $('#fillBitboard1').click(() => fillBitboard($('#decBitboard1')));
     $('#fillBitboard2').click(() => fillBitboard($('#decBitboard2')));
